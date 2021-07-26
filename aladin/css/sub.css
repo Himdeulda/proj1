@@ -1,0 +1,90 @@
+.inner{}
+.inner{width:1200px;margin:0 auto;}
+/*#wrap{width:100%;min-width:'';overflow:hidden}*/
+
+/*********************header****************************/
+#header{}
+
+
+
+/*********************section****************************/
+.section1 {background-color:#eee;
+           }
+.section1 .sec1_a1{float:left;margin-top:50px;
+                   font-size:30px;font-weight:bold;
+                    margin-bottom:30px;
+                    margin-left:20px;}
+
+.section1 .sec1_a2{float:left;
+                   font-weight:bold;
+                   margin-left:20px;
+                   margin-right:150px;
+                   margin-bottom:20px;
+                   margin-top:40px;
+                   font-size:20px;}
+.section1 .sec1_a3{float:left;
+                   margin-left:20px;
+                   margin-top:40px;
+                   font-size:20px;}                 
+                   
+.section1 .section1_album {float:left;
+                            border:1px solid #ddd;
+                            width:530px;height:247px;
+                            padding-top:0;
+                            padding-right:50px;
+                            margin-top:40px;
+                            margin-right:36px;}
+ .section1 .section1_album:nth-child(2n){margin-right:0;}                           
+.section1 .section1_album img{float:left;
+                              }
+.section1 .section1_album .album_text{float:left;
+                                      margin-left:20px;
+                                      margin-top:5px;
+                                      }
+.section1 .section1_album .album_text .text_title{font-weight:bold;
+                                                  font-size:20px;}                                      
+ 
+.section1 .section1_album .album_text p {margin-bottom:10px;}
+.section1 .section1_album .album_text .album_text2{margin-top:20px;}
+
+
+.section1 .section1_album .text_box{float:left; padding-left:5px; padding-right:5px;
+                                    border:1px solid #444;
+                                    border-radius: 40px;
+                                     height:25px;
+                                     margin-top:40px; }
+.section1 .section1_album .text_box a {
+                                       font-size:14px;}
+.section1 .section1_album .text_box span {
+                                       font-size:14px;} 
+.section1 .section1_album .text_box .text{}  
+
+.section1 .section_list{overflow:hidden;
+                        box-sizing:border-box;}
+.section1 .section_list img{transition:0.5s;}
+.section1 .section_list .hover:hover img{transform: scale(1.2);}
+.section1 .section_list .hover{overflow:hidden;
+                               display:block;
+                               float:left;}
+
+
+   
+
+/******/
+.section2 {background-color:#eee;}
+.section2 .section2_text{text-align:center;
+                         margin-top:70px;
+                          padding-bottom:70px;}     
+.section2 .section2_text a {margin-right:30px;}
+.section2 .section2_text .text_bold{font-weight:bold;}
+
+
+   
+
+
+
+
+
+
+/*********************footer****************************/
+#footer{background-color:#eee;}

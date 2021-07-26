@@ -1,0 +1,108 @@
+.inner{}
+.inner{width:400px;margin:0 auto;}
+/*#wrap{width:100%;min-width:'';overflow:hidden}*/
+
+/*********************header****************************/
+
+#header {background-color:#eee;}
+#header .border {border-bottom:1px solid #777;
+                 height:70px;
+                 }
+#header .Logo {float:left;
+               margin-top:24px;
+               margin-left:0;}
+#header .Logo img {width:30%;height:30%;}  
+
+
+#header .search_box {float:right;
+                     margin-top:-25px;
+                     margin-right:0px;
+                     }
+
+
+
+#header .search_box .text_box {border-radius:40px;
+                               border-color:#F9D606;
+                               border-top-color:#F9D606;
+                               border-style:solid;
+                               border-width:1px;
+                               outline:0px;
+                               padding-right:13px;
+                               padding-left:6px;
+                               padding-top:6px;
+                               color:#666;
+
+                             
+                               } 
+
+#header .search_box .input_btn {background-image:url(../img/boki.jpg);
+                                background-size:70%;
+                                background-repeat:no-repeat;
+                                background-position:center;
+                                background-color:transparent;
+                                border:none;    
+                                width:20px;
+                                height:20px;
+                                float:right;
+                                transform: translate(-20px,-75px); 
+                                  }                                                
+.section1 {background-color:#eee;
+           height:100px;
+           padding-top:10px;
+           padding-bottom:10px;
+           }
+.section1 .album_img{float:left;}  
+.section1  .inline_block{position:relative;}   
+.section1  .inline_block p {margin-left:5px;
+                           }
+.section1  .inline_block .p1{position:absolute;
+                            top:0;left:0px;
+                             
+                            font-size:17px;
+                            font-weight:bold;}
+.section1  .inline_block .p1>img{position:absolute;
+                                 top:2px;left:260px;
+                                 width:25px;height:25px;
+                                 }
+.section1  .inline_block .p1>img:after{}                                 
+
+.section1  .inline_block .p2{position:absolute;
+                                 top:30px;left:0px;
+                                 
+                                 font-size:13px;}
+.section1  .inline_block .p3{position:absolute;
+                                 top:50px;left:0px;
+                                  font-size:13px;
+                                   width:100px; }
+.section1  .inline_block .p4 .img1{position:absolute;
+                                 top:78px;left:5px;
+                                 width:28px;height:28px;}     
+
+.section1  .inline_block .p4 .img2{position:absolute;
+                                 top:75px;left:40px;
+                                 width:35px;height:35px;}                                   
+
+.section1  .inline_block .p4 .img3{position:absolute;
+                                 top:78px;left:82px;
+                                 width:28px;height:28px;} 
+
+.section1  .inline_block .p4 .img4{position:absolute;
+                                 top:82px;left:152px;
+                                 width:20px;height:20px;
+                                 opacity:0.6;}    
+
+.section1  .inline_block .p4 .img5{position:absolute;
+                                 top:82px;left:192px;
+                                 width:20px;height:20px;
+                                 opacity:0.6;}                                                                                                        
+                                                               
+#footer {background-color:#eee;
+         position:relative;}
+
+#footer .footer_check{position:absolute;
+                      top:0;left:0;}
+
+#footer .footer_check .footer_img1 {border-radius:5px;
+                                    border-color:#444;
+                                    border-style:solid;}     
+#footer .footer_check .footer_img1>img {width:30%;height:30%;}                                                     
