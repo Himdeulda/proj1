@@ -10,7 +10,7 @@
 .inner{width:1200px;margin:0 auto;}
 
 .header{background-color:#F37D6B;
-        position:relative; padding-bottom:200px;}
+        position:relative; padding-bottom:0;}
 
 .header h1{text-align:center;
            padding-top:250px;
@@ -26,6 +26,7 @@
             color:#eee;} 
 
 .header p img{
+           margin-bottom:100px;
            width:40%;
           height:40%;
           display:inline;
@@ -51,10 +52,13 @@
                font-size:40px;
                color:#555}
 
-.background_img {width:100%;
+.background_img img {
+                     width:100%;}               
+
+/**.background_img {width:100%;
                 height:830px;background: url(../img/meme2.png ) no-repeat;
                 background-size:100% auto;background-position:right bottom;
-                margin-bottom:200px;}
+                margin-bottom:0;}**/
 
 
 #fh5co-work {
