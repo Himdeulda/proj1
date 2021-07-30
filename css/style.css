@@ -37,20 +37,24 @@
           right:0;
           margin-top:140px;
           margin-right:120px;}
-.profile h2 {display:inline;
+
+.myil img {margin-left:50px;}
+.profile h2 {
              color:#fff;
-              font-size:3em;}
+              font-size:3em;
+               margin-bottom:30px;}
 
 .profile p {color:#fff;
-            font-size:2em;}             
+            font-size:2em;
+            }             
 
 
 .section1_title{text-align:center;
-               margin-top:50px;
-               margin-bottom:50px;
+               margin-top:80px;
+               margin-bottom:80px;
                font-weight:bold;
-               font-size:40px;
-               color:#555}
+               font-size:60px;
+               color:#555;}
 
 .background_img img {
                      width:100%;}               
@@ -62,10 +66,13 @@
 
 
 #fh5co-work {
-  overflow: hidden;
+  
   position: relative;
   color: rgba(255, 255, 255, 0.8);
-  background-color: #f37d6b
+  background:url("../img/back3.png");
+  background-repeat:no-repeat;
+              
+
   /*background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9szdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzZjk1ZWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzUyZDNhYSIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjEiLz48L2xpbmVhckdyYWRpZW50PjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjdnNnZykiIC8+PC9zdmc+);
   background-image: -webkit-gradient(linear, 0% 0%, 100% 100%, color-stop(0, #3f95ea), color-stop(1, #52d3aa));*/
   /* Android 2.3 */
@@ -240,14 +247,18 @@ img.mfp-img {
 
 
 
-.bot_text{
-          margin-top:10px;
-          margin-bottom:10px;
-          display:block;
-          text-align:center;}
 
-#footer p {margin-top:50px;
+.container h2 a {font-weight:bold;}
+.bot_text{font-weight:bold;
+          font-size:20px;
+          margin-top:20px;
+          margin-bottom:20px;
+          display:block;
+          text-align:center;
+          color:#fff;}
+
+#footer p {margin-top:150px;
            text-align:center;
            color:#aaa;}
 
-.row row-bottom-padded-sm img {z-index:999999999999;}         
+        
