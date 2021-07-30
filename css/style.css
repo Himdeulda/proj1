@@ -103,7 +103,7 @@
   background-color: #fff;
   content: "";
   z-index: 3;
-  display: inline-block;
+  display: none;
   height: 70px;
   padding: 0;
   width: 101%;
